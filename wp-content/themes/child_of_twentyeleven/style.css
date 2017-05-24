@@ -1,0 +1,20 @@
+/* 
+Theme Name: Jessica's Perfect Theme
+Description: Child Theme based on 2011 wp theme
+Author: JMA Interactive
+Version: 1.0
+Template: twentyeleven
+
+*/
+@import url('../twentyeleven/style.css');
+@import url('https://fonts.googleapis.com/css?family=Cookie');
+
+body{
+	background-color: pink;
+}
+
+.entry-title{ 
+	font-family: 'Cookie', cursive;
+	font-size: 12px;
+
+}
