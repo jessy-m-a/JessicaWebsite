@@ -6,15 +6,58 @@ Version: 1.0
 Template: twentyeleven
 
 */
+/* font-family: 'Lato', sans-serif;
+font-family: 'El Messiri', sans-serif;
+font-family: 'Arima Madurai', cursive;
+font-family: 'Berkshire Swash', cursive;
+font-family: 'Buda', cursive;
+font-family: 'Comfortaa', cursive;
+font-family: 'Croissant One', cursive;
+font-family: 'Elsie', cursive;
+*/
 @import url('../twentyeleven/style.css');
-@import url('https://fonts.googleapis.com/css?family=Cookie');
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai|Berkshire+Swash|Buda:300|Comfortaa|Croissant+One|El+Messiri|Elsie|Lato');
+
+
 
 body{
-	background-color: pink;
+	background-color: #000000;
 }
 
+/*header*/
+
+#branding {
+	background-color: #be4b84;
+}
+
+#site-title a{
+	font-family: 'El Messiri', sans-serif;
+	font-size: 50px;
+	color: 	#ffffff;
+	
+}
+#site-description {
+	font-family: 'Lato', sans-serif;
+	color:	#fdb5e3;
+	font-size: 18px;
+	padding-top: 15px;
+}
+/*header*/
+
+/* menu*/
+#access {
+	background: -webkit-linear-gradient(#ffffff,#f2f2f2); 
+	
+}
+
+#access a {
+    color: #8a325e;
+}
+/* menu*/
+
+
 .entry-title{ 
-	font-family: 'Cookie', cursive;
+	font-family: 'Parisienne', cursive;
 	font-size: 12px;
 
 }
